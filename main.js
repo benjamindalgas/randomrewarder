@@ -1,16 +1,16 @@
 
 //window.onload = main();
-var studentnames2 = ["Fercho", "David" , "Ivan", "Bryan" , "Asako" , "Gina", "Alejandra", "Adriana" , "Oscar" , "Bianca" , "Juan" , "Wendy" , "Valentin" , "Carlos", "Brayan" , "Jose"];
-var studentnames4 = [ "Julian", "Abram", "Jair", "Aden" , "Luis" , "Blanca", "Jessica" , "Tino", "Leslie", "Vanessa" , "Juanita", "David", "Jose" , "Randall" , "Esmeralda", "Monica" , "Marc" , "Sydney", "Chelsea", "Karen"];
-var studentnames5 = [ "Jose", "Miguel", "Tony", "Jenny", "Edgar", "Elena", "Emmanuel", "Cristian", "Alex", "Yuleni", "Aaron" , "Mitzi", "Baldemar", "Yareli", "Marcos", "Luis" , "Adamary"];
+var studentnames2 = ["George Fox", "Corban" , "Willamette", "PSU" , "Chemeketa" , "Western",];
+var studentnames4 = [ "Victor", "David", "Omar", "Jasmine" , "Lizeth" , "Elias", "Shafi" , "Adriana", "Edith", "Veronica" , "Geraldyn", "Ivan", "Bryan" , "Bella" , "Yhair"];
+var studentnames5 = [ "Amber", "David", "Jonathan", "Ezequiel", "Roman", "Oscar", "Francisco", "Yareli", "Jasma", "Melissa", "Aaron" , "Mitzi", "Baldemar", "Yareli", "Marcos", "Luis" , "Adamary"];
 var studentnames6 = ["Edith", "Judith", "Michell", "Oscar", "Dulce", "Jordan", "Lance", "Madiha", "Christian", "Giselle", "Annmarie", "Rose", "Yuliana", "Joanna", "Veronica", "Brian", "Beyonce", "Andrea","Gabby" , "Lizeth", "Ana" , "Alejandra"];
 
 
 function randomnumber2() { 
   var winner2 = studentnames2[Math.floor(Math.random() * studentnames2.length)];
   var x = Math.floor((Math.random() * 10) + 1);
-    setTimeout(function choosewho() {document.getElementById("winner").innerHTML = " Is " + winner2 + " ready to learn?";}, x * 300000);
-    setTimeout(function playit() {play();}, x * 300000);
+    setTimeout(function choosewho() {document.getElementById("winner").innerHTML = " Is " + winner2 + " ready to learn?";}, x * 3000);
+    setTimeout(function playit() {play();}, x * 3000);
     document.getElementById("demo").innerHTML = x;
 }
   
